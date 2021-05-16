@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <!-- Required meta tags -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div id="wrapper">
+  <header>
+      <!-- ハンバーガーメニュー -->
+      <div class="head_wrap">
+        <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+        <input type="checkbox" name="navToggle" id="navToggle" class="nav-toggle">
+
+        <label for="navToggle" class="btn-burger">
+          <span class="btn-burger_dm"></span>
+          <span class="icon"></span>
+        </label>
+        <div class="header_menu_left">
+          <div class="header_menu_left_box">
+            <div class="header_menu_left_home"></div>
+          </div>
+        </div>
+        <div class="header_menu_right"></div>
+
+        <!-- 表示されるメニューの中身 -->
+        <nav class="nav">
+          <ul class="nav_list">
+            <li class="nav_item"><a href="#" class="nav_link"><span>HOME</span>ホーム</a></li>
+            <li class="nav_item"><a href="#" class="nav_link"><span>ABOUT</span>企業情報</a></li>
+            <li class="nav_item">
+              <div class="nav_title_link"><span>SERVICE</span>サービス</div>
+              <div class="nav_sub_block">
+                <ul class="nav_sublist">
+                  <li class="nav_subitem">
+                    <a href="#" class="nav_sublink">飲食</a>
+                  </li>
+                  <li class="nav_subitem">
+                    <a href="#" class="nav_sublink">人材派遣</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav_item"><a href="#" class="nav_link"><span>CONTACT</span>お問い合わせ</a></li>
+          </ul>
+        </nav>
+        <!-- クリック時に表示されるメニューブロック -->
+        <div class="header_menu_block">
+          <div class="header_menu_inner">
+            <div class="header_menu_left">
+              <div class="header_menu_left_box">
+                <img src="imgs/sample.jpg" alt="M2 Corporation" class="header_menu_logo">
+                <a href="#" class="header_menu_home"><span class="header_menu_left_text">Back to Home</span></a>
+              </div>
+            </div>
+            <div class="header_menu_right">
+              <div class="header_menu_right_box">
+                <ul class="header_menu_list">
+                  <li class="header_menu_item"><a href="#" class="header_menu_link">HOME</a></li>
+                  <li class="header_menu_item"><a href="#" class="header_menu_link">ABOUT</a></li>
+                  <li class="header_menu_item">
+                    <div class="header_link_title">SERVICE</div>
+                    <ul class="header_menu_sublist">
+                      <li class="header_menu_subitem">
+                        <a href="#" class="header_menu_sublink">飲食</a>
+                      </li>
+                      <li class="header_menu_subitem">
+                        <a href="#" class="header_menu_sublink">人材派遣</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header_menu_item"><a href="#" class="header_menu_link">CONTACT</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container-fluid">
+      <div class="layout_common">
+        <div class="layout_left">
+          <div class="top_main_block">
+            <div class="top_logo">
+              <img class="img-fluid" src="imgs/sample.jpg" alt="sample">
+            </div>
+            <h1 class="top_main_title">
+              サンプルサンプルサンプルサンプル
+            </h1>
+            <p class="top_main_text">
+              サンプルサンプルサンプルサンプル<br>
+              サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプル
+              サンプルサンプルサンプル
+            </p>
+          </div>
+        </div>
+        <div class="layout_right">
+          <div class="top_slider_block">
+            <!--<ul class="top_slider_list slick-initialized slick-slider slick-doted"> -->
+            <ul class="top_slider_list">
+              <!--<button type="button"></button>-->
+              <li class="top_slider_item">
+                <!--  ***todo: list内の改行を無くして隙間を埋める*** -->
+                <div class="top_slider_pic box" style="background-image: url(imgs/top_service_restaurant.jpg)"></div>
+                <div class="top_slider_info box">
+                  <h2 class="top_slider_title">飲食</h2>
+                  <p class="top_slider_text">テストテストテストテストテストテストテストテストテスト</p>
+                </div>
+              </li>
+              <li class="top_slider_item">
+                <!--  ***todo: list内の改行を無くして隙間を埋める*** -->
+                <div class="top_slider_pic box" style="background-image: url(imgs/top_service.jpeg)"></div>
+                <div class="top_slider_info box">
+
+                  <h2 class="top_slider_title">人材派遣</h2>
+                  <p class="top_slider_text">テストテストテストテストテストテストテストテストテスト</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="top_service_block">
+            <ul class="top_service_list">
+              <li class="top_service_item">
+                <a href="#" class="top_service_link">
+                  <img src="imgs/icon-dish.png" alt="restaurant" class="top_service_icon">
+                  <h3 class="top_service_title">飲食</h3>
+                  <p class="top_service_text">テストテストテストテストテストテストテストテストテスト</p>
+                </a>
+              </li>
+              <li class="top_service_item">
+                <a href="#" class="top_service_link">
+                  <img src="imgs/icon-job.png" alt="staffing" class="top_service_icon">
+                  <h3 class="top_service_title">人材派遣</h3>
+                  <p class="top_service_text">テストテストテストテストテストテストテストテストテスト</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer_wrap">
+        <div class="footer_logo">
+          <img class="img-fluid" src="imgs/sample.jpg" alt="sample">
+        </div>
+        <p class="copyright">&copy; M2 ALL RIGHTS RESERVED</p>
+      </div>
+    </footer>
+<!-- リンク入力も可能  -->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!--<script src="js/jquery.min.js"></script>-->
+<script>
+  $(function() {
+    $('#navToggle').on('click', function() {
+      $('.header_menu_left').toggleClass('is-active');
+    });
+    $('#navToggle').on('click', function() {
+      $('.header_menu_left_box').toggleClass('is-active');
+    });
+    $('#navToggle').on('click', function() {
+      $('.header_menu_right').toggleClass('is-active');
+    });
+    $('#navToggle').on('click', function() {
+      $('.header_menu_right_box').toggleClass('is-active');
+    });
+    $('#navToggle').on('click', function() {
+      $('.btn-burger').toggleClass('is-active');
+    });
+    $('#navToggle').on('click', function() {
+      $('.service_link_list').toggleClass('is-active');
+    });
+    $('.top_slider_list').slick({
+      autoplay: true,
+      autoplaySpeed: 3500,
+      speed: 1500,
+      arrows: false,
+    });
+  });
+</script>
+  </div>
+</body>
+
+</html>
